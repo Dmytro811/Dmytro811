@@ -2,7 +2,7 @@
 - 👀 I’m interested in programming and solving various problems
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 📫 How to reach me d.nazaruk2006@gmail.com
 
 <!---
 Dmytro811/Dmytro811 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
