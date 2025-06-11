@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Dmytro811
 - 👀 I’m interested in programming and solving various problems
-- 🌱 I’m currently learning Python
+- 🌱 I’m currently learning Python and C++
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me d.nazaruk2006@gmail.com
 
