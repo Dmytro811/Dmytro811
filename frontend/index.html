@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CEDRA Wallet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg">
+      <div class="flame"></div>
+
+      <section class="card address-card">
+        <div class="row"><span class="label">Адреса:</span> <span id="address">—</span></div>
+        <div class="row"><span class="label">Баланс:</span> <span id="balance">—</span> <span>CEDRA</span></div>
+        <div class="actions">
+          <button id="btn-refresh" class="btn">Баланс оновлення</button>
+          <button id="btn-connect" class="btn secondary">Підключити гаманець</button>
+        </div>
+      </section>
+
+      <section class="card send-card">
+        <h3>Надсилання токенів</h3>
+        <input id="to" type="text" placeholder="Адреса одержувача" />
+        <input id="amount" type="number" min="0" step="1" placeholder="Сума (CEDRA)" />
+        <button id="btn-send" class="btn">Надіслати</button>
+        <div id="tx-status" class="status"></div>
+      </section>
+
+      <section class="card receive-card">
+        <h3>Отримуйте токени</h3>
+        <p>Відскануйте цей QR-код, щоб отримати CEDRA.</p>
+        <canvas id="qrcode" width="220" height="220"></canvas>
+      </section>
+    </div>
+
+    <script src="https://unpkg.com/qr-code-styling@1.6.0/lib/qr-code-styling.js"></script>
+    <script src="https://unpkg.com/aptos@1.21.0"></script>
+    <script src="app.js"></script>
+  </body>
+  </html>
+
