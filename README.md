@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @Dmytro811
 - 👀 I’m interested in programming and solving various problems
-- 🌱 I’m currently learning Python, C++ and Typescript
+- 🌱 I’m currently learning DevOps, knowing progrming languages such as Python, C++
+, Javascript and Typescript
 - 📫 How to reach me d.nazaruk2006@gmail.com
 
 <!---
